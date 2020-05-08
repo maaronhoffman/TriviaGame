@@ -86,11 +86,11 @@ function questionDraw()
     if (timeLeft === 0) {
 
         questionBox.empty();
-        questionBox.html("You Lose");
+        questionBox.html("<h1 style='font-size:100px'>You Lose</h1>");
 
     }
 
-    else  timeLeft--; $("#timerTarget").html("<div id='timerTarget' style='width:60% class='container'><div class='row'><div id='timerTitle' class='text-center col p-2 m-3'><h1>Timer: " + timeLeft + "</h1>") },1000);
+    else  timeLeft--; $("#timerTarget").html("<div id='timerTarget' style='width:60%' class='container'><div class='row'><div id='timerTitle' class='text-center col p-2 m-3'><h1>Timer: " + timeLeft + "</h1>") },1000);
 
     setTimeout(function(){questionBox.append(timerBox);},800);
     setTimeout(function(){questionBox.append(question1);},800); 
