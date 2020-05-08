@@ -1,0 +1,102 @@
+body {
+
+    background-color: #2a3640;
+background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+
+    
+    
+    }
+    
+    .form-check-label {
+    
+    
+        font-family: rhode-condensed, sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-variant: small-caps;
+    color: #D9B471;
+    
+    
+    }
+    
+    h1 {
+    
+    font-family: rhode-condensed, sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-variant: small-caps;
+    color: #D9B471;
+    
+    
+    
+    }
+    
+    #bannerTitle {
+    
+        background-color: #2A3640;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+    
+    border-bottom: 1px solid #2b2d2f;
+    box-shadow: 0px 20px 18px #2b2d2f;
+    font-family: rhode-condensed, sans-serif;
+    font-weight: 700;
+    
+    font-style: normal;
+    font-variant: small-caps;
+    
+    }
+    
+    #questionsTitle {
+    
+    background-color: rgb(29, 37, 44);
+    background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+    border-radius: 1.2rem;
+    border-bottom: 1px solid #2b2d2f;
+    box-shadow: 0px 20px 18px #2b2d2f;
+    font-family: rhode-condensed, sans-serif;
+    font-weight: 700;
+    font-size: ;
+    font-style: normal;
+    font-variant: small-caps;
+    color: #D9B471;
+    
+    }
+    
+    #bannerTitle h1 {
+    
+    color: #D9B471;
+    font-size: 4rem;
+    
+    }
+    
+    #questionText {
+    
+        color: #D9B471;  
+        font-family: rhode, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+    
+    font-size: 2rem;
+    background-color: #2A3640;
+    border-radius: 1.2rem;
+    border-bottom: 1px solid #2b2d2f;
+    box-shadow: 0px 20px 18px #2b2d2f;
+    
+    
+    }
+    
+    #start {
+        background-color: rgb(38, 49, 58);
+        background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+    color: #D9B471;
+    font-size: 2rem;
+    font-family: rhode, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-variant: small-caps;
+    box-shadow: 0px 20px 18px #2b2d2f;
+    
+    }
