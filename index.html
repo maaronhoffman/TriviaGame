@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>Trivia Game</title>
     <link rel="stylesheet" href="https://use.typekit.net/say2mci.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link
@@ -21,7 +21,7 @@
 <div class="row m-2">
 <div class="col">
 <div id="bannerTitle" class="text-center jumbotron p-5">
-    <h1>Trivia Game</h1>
+    <h1 style="font-size: 100px;">Trivia Game</h1>
     </div>
 </div>
 </div>
@@ -30,7 +30,7 @@
 
 <div id="questionsContainer" class="justify-content-center text-center container">
 
-    <div><h1>You have 60 Seconds to guess to correct answers</h1></div>
+    <div><h1>You have 60 Seconds to guess to correct answers and hit SUBMIT</h1></div>
 
 </div>  
 
@@ -90,7 +90,7 @@ function questionDraw()
 
     }
 
-    else  timeLeft--; $("#timerTarget").html("<div id='timerTarget' style='width:60% class='container'><div class='row'><div id='bannerTitle' class='text-center col p-2 m-3'><h1>Timer: " + timeLeft + "</h1>") },1000);
+    else  timeLeft--; $("#timerTarget").html("<div id='timerTarget' style='width:60% class='container'><div class='row'><div id='timerTitle' class='text-center col p-2 m-3'><h1>Timer: " + timeLeft + "</h1>") },1000);
 
     setTimeout(function(){questionBox.append(timerBox);},800);
     setTimeout(function(){questionBox.append(question1);},800); 
